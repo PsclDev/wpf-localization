@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+        <!--IMPORTANT!
+        Properties need to change:
+        Build-Action: Content
+        CopyToOutputDirectory: Copy if Newer-->
+    
+    <sys:String x:Key="ResourceDictionaryName">Loc-de-DE</sys:String>
+
+    <sys:String x:Key="WindowTitle">Dynamische Sprachen in WPF</sys:String>
+    <sys:String x:Key="Name">Name:</sys:String>
+    <sys:String x:Key="Age">Alter:</sys:String>
+    <sys:String x:Key="Adress">Addresse:</sys:String>
+    <sys:String x:Key="Button_Ok">Ok</sys:String>
+    <sys:String x:Key="Button_Cancel">Abbrechen</sys:String>
+    <sys:String x:Key="Button_Help">Hilfe</sys:String>
+
+
+</ResourceDictionary>

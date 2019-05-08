@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ResourceDictionaryName">Loc-en-US</sys:String>
+
+    <sys:String x:Key="WindowTitle">Dynamic Localization in WPF</sys:String>
+    <sys:String x:Key="Name">Name:</sys:String>
+    <sys:String x:Key="Age">Age:</sys:String>
+    <sys:String x:Key="Adress">Adress:</sys:String>
+    <sys:String x:Key="Button_Ok">Ok</sys:String>
+    <sys:String x:Key="Button_Cancel">Cancel</sys:String>
+    <sys:String x:Key="Button_Help">Help</sys:String>
+    
+</ResourceDictionary>
