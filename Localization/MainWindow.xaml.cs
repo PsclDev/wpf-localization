@@ -16,12 +16,16 @@ namespace Localization
             cmbbx.ItemsSource = Properties.LocUtil.LanguageList;
             Properties.LocUtil.SwitchLanguage(this, langCode);
             cmbbx.SelectedItem = cmbbx.Items.Cast<ComboBoxItem>().Where(e => e.Tag.ToString() == langCode).FirstOrDefault();
+            MainGrid.Children.Add(test);
         }
+
+        private UserControl_Test test = new UserControl_Test();
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var newLanguage = ((ComboBoxItem)cmbbx.SelectedItem).Tag.ToString();
             Properties.LocUtil.SwitchLanguage(this, newLanguage);
+            Properties.LocUtil.SwitchLanguage(test, newLanguage);
         }
     }
 }

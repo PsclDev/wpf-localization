@@ -35,5 +35,6 @@
             <Button Content="{DynamicResource ResourceKey=Button_Cancel}" Width="100" Margin="25 0 0 0"/>
             <Button Content="{DynamicResource ResourceKey=Button_Help}" Width="100" Margin="25 0 0 0"/>
         </StackPanel>
+        <Grid x:Name="MainGrid" Height="90" Margin="0 15 0 0"/>
     </StackPanel>
 </Window>
