@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+        <!--IMPORTANT!
+        Properties need to change:
+        Build-Action: Content
+        CopyToOutputDirectory: Copy if Newer-->
+    
+    <sys:String x:Key="ResourceDictionaryName">Loc-de-DE</sys:String>
+
+    <sys:String x:Key="Test">Dies ist ein Label mit einem Beispielsatz</sys:String>
+</ResourceDictionary>
